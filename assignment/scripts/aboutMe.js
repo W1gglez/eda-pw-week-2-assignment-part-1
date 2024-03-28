@@ -25,30 +25,48 @@ let introduction =
 console.log(introduction);
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
+let adventurous = true;
 
+console.log(adventurous);
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
+let food = 'Steak';
 
+console.log(food);
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets`
+let pets = 1;
 
+console.log(pets);
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-
+let friendsPets = 3;
 // 10 - Add two pets to your `pets` variable
-
+pets += 2;
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-
+const allowedPets = 4;
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!",
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
+let result;
+if (adventurous == true) {
+  result = 'Adventures are great!';
+} else {
+  result = 'How about we stay home?';
+}
 
+console.log(result);
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
 //      Create a compound conditional:
 //      if luckyNumber is 2 and adventurous is true,
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
+let diceRoll = 'Try again later.';
+if (luckyNumber == 2 && adventurous == true) {
+  diceRoll = 'Roll the dice!';
+}
 
+console.log(diceRoll);
 // 14 - Create a variable called `petStatus`.
 //      Write a conditional that covers the following:
 //      if the value of `pets` is less than the value of `allowedPets`,
